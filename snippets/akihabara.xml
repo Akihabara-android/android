@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="akihabara"
+           fetch="https://github.com/Akihabara-open"
+           revision="refs/heads/Tulip" />
+
+  <!-- Build -->
+  <project name="android_build" path="build/make" groups="pdk" remote="akihabara" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project name="android_build_soong" path="build/soong" groups="pdk,tradefed" remote="akihabara" >
+        <linkfile src="root.bp" dest="Android.bp" />
+	<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Manifest -->
+  <project name="android" path="android" remote="akihabara" />
+
+  <!-- Packages -->
+  <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="akihabara" />
+
+  <!-- SEPolicy -->
+  <project name="android_device_akihabara_sepolicy" path="device/akihabara/sepolicy" remote="akihabara" />
+  <project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="akihabara" />
+  <project name="android_device_qcom_sepolicy_vndr-legacy-um" path="device/qcom/sepolicy_vndr-legacy-um" remote="akihabara" />
+  <project name="android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="akihabara" />
+  <project name="android_device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="akihabara" />
+
+  <!-- System -->
+  <project name="android_lineage-sdk" path="lineage-sdk" remote="akihabara" />
+  <project name="android_vendor_akihabara" path="vendor/akihabara" remote="akihabara" />
+</manifest>
