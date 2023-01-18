@@ -8,6 +8,7 @@
   <!-- Packages -->
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
+  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
 
   <!-- Sepolicy -->
   <remove-project name="LineageOS/android_device_lineage_atv" />
