@@ -2,6 +2,7 @@
 <manifest>
   <!-- Frameworks -->
   <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="platform/frameworks/proto_logging" />
 
   <!-- General -->
   <remove-project name="LineageOS/android" />
