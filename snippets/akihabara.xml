@@ -19,6 +19,9 @@
         <linkfile src="root.bp" dest="Android.bp" />
 	<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+ 
+  <!-- Frameworks -->
+  <project name="android_frameworks_base" path="frameworks/base" remote="akihabara" />
 
   <!-- Manifest -->
   <project name="android" path="android" remote="akihabara" />
