@@ -42,4 +42,5 @@
   <!-- System -->
   <project name="android_lineage-sdk" path="lineage-sdk" remote="akihabara" />
   <project name="android_vendor_akihabara" path="vendor/akihabara" remote="akihabara" />
+  <project name="android_vendor_support" path="vendor/support" remote="akihabara" />
 </manifest>
