@@ -10,6 +10,19 @@
   <remove-project name="LineageOS/android_build_soong" />
 
   <!-- Packages -->
+  <remove-project name="LineageOS/android_packages_apps_AudioFX" />
+  <remove-project name="LineageOS/android_packages_apps_Aperture" />
+  <remove-project name="LineageOS/android_packages_apps_Contacts" />
+  <remove-project name="LineageOS/android_packages_apps_DeskClock" />
+  <remove-project name="LineageOS/android_packages_apps_Dialer" />
+  <remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
+  <remove-project name="LineageOS/android_packages_apps_Eleven" />
+  <remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
+  <remove-project name="LineageOS/android_packages_apps_Etar" />
+  <remove-project name="LineageOS/android_packages_apps_Gallery2" />
+  <remove-project name="LineageOS/android_packages_apps_Jelly" />
+  <remove-project name="LineageOS/android_packages_apps_Messaging" />
+  <remove-project name="LineageOS/android_packages_apps_Recorder" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
