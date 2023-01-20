@@ -3,7 +3,11 @@
 
   <remote  name="akihabara"
            fetch="https://github.com/Akihabara-open"
-           revision="refs/heads/Tulip" />
+	   revision="refs/heads/Tulip" />
+
+  <remote  name="akihabara-gitlab"
+	   fetch="https://gitlab.com/Akihabara-open"
+	   revision="refs/heads/Tulip" />
 
   <!-- Build -->
   <project name="android_build" path="build/make" groups="pdk" remote="akihabara" >
@@ -21,7 +25,7 @@
   </project>
 
   <!-- External -->
-  <project name="android_external_faceunlock" path="external/faceunlock" remote="akihabara" />
+  <project name="android_external_faceunlock" path="external/faceunlock" remote="akihabara-gitlab" />
  
   <!-- Frameworks -->
   <project name="android_frameworks_base" path="frameworks/base" remote="akihabara" />
