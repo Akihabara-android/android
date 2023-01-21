@@ -18,6 +18,7 @@
   <remove-project name="LineageOS/android_packages_apps_AudioFX" />
   <remove-project name="LineageOS/android_packages_apps_Aperture" />
   <remove-project name="LineageOS/android_packages_apps_Contacts" />
+  <remove-project name="platform/packages/apps/CarrierConfig" />
   <remove-project name="LineageOS/android_packages_apps_DeskClock" />
   <remove-project name="LineageOS/android_packages_apps_Dialer" />
   <remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
