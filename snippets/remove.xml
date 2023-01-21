@@ -7,6 +7,7 @@
 
   <!-- Frameworks -->
   <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_opt_telephony" />
   <remove-project name="platform/frameworks/proto_logging" />
 
   <!-- General -->

@@ -32,6 +32,7 @@
  
   <!-- Frameworks -->
   <project name="android_frameworks_base" path="frameworks/base" remote="akihabara" />
+  <project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="akihabara" />
   <project name="android_frameworks_proto_logging" path="frameworks/proto_logging" remote="akihabara" />
 
   <!-- Manifest -->
