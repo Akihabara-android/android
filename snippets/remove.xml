@@ -23,6 +23,7 @@
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
   <remove-project name="LineageOS/android_packages_apps_Messaging" />
   <remove-project name="LineageOS/android_packages_apps_Recorder" />
+  <remove-project name="LineageOS/android_packages_apps_LineageCustomizer" />
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
