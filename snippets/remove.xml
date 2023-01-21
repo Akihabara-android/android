@@ -29,6 +29,7 @@
   <remove-project name="LineageOS/android_packages_apps_Stk" />
   <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+  <remove-project name="LineageOS/android_packages_overlays_Lineage" />
 
   <!-- Sepolicy -->
   <remove-project name="LineageOS/android_device_lineage_atv" />
