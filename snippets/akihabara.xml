@@ -26,6 +26,9 @@
 
   <!-- External -->
   <project name="android_external_faceunlock" path="external/faceunlock" remote="akihabara-gitlab" />
+  <project name="android_external_google-fonts_cutive-mono" path="external/google-fonts/cutive-mono" remote="akihabara" />
+  <project name="android_external_roboto-fonts" path="external/roboto-fonts" remote="akihabara" />
+  <project name="android_external_noto-fonts" path="external/noto-fonts" remote="akihabara" />
  
   <!-- Frameworks -->
   <project name="android_frameworks_base" path="frameworks/base" remote="akihabara" />

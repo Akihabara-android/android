@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- External -->
+  <remove-project name="platform/external/google-fonts/cutive-mono" />
+  <remove-project name="platform/external/roboto-fonts" />
+  <remove-project name="platform/external/noto-fonts" />
+
   <!-- Frameworks -->
   <remove-project name="LineageOS/android_frameworks_base" />
   <remove-project name="platform/frameworks/proto_logging" />
